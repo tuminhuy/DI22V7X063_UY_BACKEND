@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodem server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tu Minh Uy",
@@ -21,3 +21,4 @@
     "prettier": "^3.0.3"
   }
 }
+
