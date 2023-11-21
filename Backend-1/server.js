@@ -19,7 +19,7 @@ async function startServer() {
         app.listen(PORT, () => {
             console.log('server is running on port ${PORT}');
         });
-    } catch (error;) {
+    } catch (error) {
         console.log("cannot connect to the databsae!", error);
         process.exit();
     }
