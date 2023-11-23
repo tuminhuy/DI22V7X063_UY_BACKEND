@@ -106,5 +106,6 @@ exports.findAllFavorite = async (_req, res, next) => {
                         new ApiError(500, "An error occurred while retrieving favorite contacts")
                 );
         }
+        
 };
 
